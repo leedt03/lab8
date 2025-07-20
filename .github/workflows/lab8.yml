@@ -22,7 +22,7 @@ jobs:
         env:
           api_key: 1aO764b_4e59_p@$Sw0RdAStvdf-19ofvs4F
         run: |
-          echo "Un-Masked key = {{ env.api_key }}"
+          echo "Un-Masked key = $api_key"
           echo ???????
           echo "Masked key = ::add-mask::$api_key"
 
